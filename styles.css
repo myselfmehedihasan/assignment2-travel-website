@@ -6,6 +6,7 @@
 body{
     width: 1170px ;
     margin: auto;
+    /* border: 2px solid; */
 }
 
 header{
@@ -15,6 +16,10 @@ header{
     justify-content: space-between;
     align-items: center;
        
+}
+
+.logo h3{
+    font-size: 36px;
 }
 .logo{
     display: flex;
@@ -31,19 +36,56 @@ header{
 }
 nav > ul{
     display: flex;
+    
 }
 nav li {
+
     list-style: none;
-    margin-right: 44px;
+    margin-right: 50px;
     font-size: 18px;
     font-weight: 400;
+    
+    
 }
 
 nav li a {
     text-decoration: none;
+    color: #424247;
+    
 
 }
 nav #home{
     color: #FF5400;
  
+}
+
+/* body */
+
+.banner-container{
+    position: relative;
+    text-align: center;
+    
+}
+.banner-image{
+   
+    border-radius: 16px;
+    }
+.banner-heading{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+.banner-para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    
 }
